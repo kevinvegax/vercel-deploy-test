@@ -13,7 +13,7 @@ function App() {
   useEffect(() => {
     const run = async () => {
       try {
-        const response = await fetch("/api/hello")
+        const response = await fetch("/api/helloWorld")
         if (!response.ok) {
           throw new Error(`HTTP ${response.status}`)
         }
